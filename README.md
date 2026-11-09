@@ -1,5 +1,17 @@
 # Prospector ZMK Module
 
+> [!NOTE]
+> **russwinch fork.** Two lines of development live here:
+> - `main`: carrefinho's dongle module (Prospector as split central,
+>   `prospector_adapter` shield, ZMK v0.3 / Zephyr 3.5). Used by
+>   [russwinch/zmk-config](https://github.com/russwinch/zmk-config) `main`.
+> - `scanner`: [t-ogura's scanner fork](https://github.com/t-ogura/prospector-zmk-module)
+>   (tag `v2.2.3`). Keyboards advertise their status and the Prospector
+>   just listens (`prospector_scanner` shield, needs ZMK main / Zephyr 4).
+>   The keyboard-side part also works on ZMK v0.3.
+>
+> To update `scanner`, fetch a newer tag from t-ogura and fast-forward the branch.
+
 All the necessary stuff for [Prospector](https://github.com/carrefinho/prospector) to display things with ZMK. Currently functional albeit barebones.
 
 > [!IMPORTANT]
